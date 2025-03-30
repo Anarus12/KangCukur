@@ -1,0 +1,220 @@
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Potong Rambut Pria - Potong Rambut Ngamban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="logo.jpeg" alt="Kang Cukur Logo" class="w-10 h-10 rounded-full">
+<span class="text-xl font-bold">Kang <span class="text-blue-400">Cukur</span></span>
+
+            </div>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6">
+                <a class="hover:text-blue-400" href="#beranda">Beranda</a>
+                <a class="hover:text-blue-400" href="#layanan">Layanan</a>
+                <a class="hover:text-blue-400" href="#galeri">Galeri</a>
+                <a class="hover:text-blue-400" href="#kontak">Kontak</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden focus:outline-none" id="menu-btn">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-gray-800 px-4 py-2" id="mobile-menu">
+            <a class="block py-2 hover:text-blue-400" href="#beranda">Beranda</a>
+            <a class="block py-2 hover:text-blue-400" href="#layanan">Layanan</a>
+            <a class="block py-2 hover:text-blue-400" href="#galeri">Galeri</a>
+            <a class="block py-2 hover:text-blue-400" href="#kontak">Kontak</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero h-96 flex items-center justify-center relative" id="beranda">
+        <img alt="Barbershop interior with modern design" class="absolute inset-0 w-full h-full object-cover" height="1080" src="header.jpeg" width="1920"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto px-4 text-center relative z-10 text-white">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">POTONG RAMBUT KANG CUKUR</h1>
+            <p class="text-xl mb-8">Gaya modern untuk penampilan terbaik Anda</p>
+            <a class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 inline-block" href="#">
+                <i class="fas fa-calendar-alt mr-2"></i> Booking Sekarang
+            </a>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="py-16 bg-white" id="layanan">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">LAYANAN KAMI</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Image 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <img alt="Potong Rambut" class="w-full h-64 object-cover rounded-lg" height="400" src="img/1 (1).jpeg" width="600"/>
+                </div>
+                <!-- Image 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <img alt="Cukur Rambut" class="w-full h-64 object-cover rounded-lg" height="400" src="img/1 (2).jpeg" width="1000"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">TESTIMONI PELANGGAN</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img alt="Customer Andi Wijaya" class="w-12 h-12 rounded-full mr-4" src="img/ok.jpeg"/>
+                        <div>
+                            <h4 class="font-bold">Anarus</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Hasil potong rambutnya sangat rapi dan sesuai permintaan. ramah. Recommended!"</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img alt="Customer Budi Santoso" class="w-12 h-12 rounded-full mr-4" src="img/Pantai mandiri.jfif"/>
+                        <div>
+                            <h4 class="font-bold">Budi Santoso</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Tempatnya nyaman dan bersih. Saya selalu puas dengan hasil cukur rambut di sini. Harga juga terjangkau."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="py-16 bg-white" id="kontak">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">HUBUNGI KAMI</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Informasi Kontak</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-500 mt-1 mr-3"></i>
+                            <p>Jl. Ngamban Rt06.06 Buran tasikmadu karanganyar</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone-alt text-blue-500 mr-3"></i>
+                            <p>0812-3456-7890</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-clock text-blue-500 mr-3"></i>
+                            <p>Buka Setiap Hari: 09.00 - 21.00 WIB</p>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-xl font-bold mb-4">Ikuti Kami</h3>
+                        <div class="flex space-x-4">
+                            <a class="text-blue-500 hover:text-blue-700 text-2xl" href="https://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a class="text-blue-500 hover:text-blue-700 text-2xl" href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="text-blue-500 hover:text-blue-700 text-2xl" href="https://wa.me/628970581500" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Pesan Sekarang</h3>
+                    <form class="space-y-4" id="contact-form">
+                        <div>
+                            <input class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nama Lengkap" type="text" id="name" required/>
+                        </div>
+                        <div>
+                            <input class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email" type="email" id="email" required/>
+                        </div>
+                        <div>
+                            <input class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nomor Telepon" type="tel" id="phone" required/>
+                        </div>
+                        <div>
+                            <select class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" id="service" required>
+                                <option value="">Pilih Layanan</option>
+                                <option value="potong">Potong Rambut</option>
+                                <option value="cukur">Cukur Rambut</option>
+                                <option value="facial">Facial Treatment</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Pesan Anda" rows="4" id="message" required></textarea>
+                        </div>
+                        <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded transition duration-300" type="submit">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-cut text-2xl text-blue-400"></i>
+                        <span class="text-xl font-bold">Kang <span class="text-blue-400">Cukur</span></span>
+                    </div>
+                    <p class="mt-2 text-gray-400">Potong rambut untuk penampilan terbaik Anda</p>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400">© 2025 KangCukur. Anarus12.</p>
+                    <p class="text-gray-400">Dibuat dengan untuk para pria stylish</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Form submission script
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value;
+
+            const whatsappUrl = `https://wa.me/6282143854418?text=Nama:%20${name}%0AEmail:%20${email}%0ANomor%20Telepon:%20${phone}%0ALayanan:%20${service}%0APesan:%20${message}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
